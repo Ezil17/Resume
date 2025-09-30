@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rezil Cabanza— Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: radial-gradient(900px 400px at 10% 10%, rgba(186,104,200,0.06), transparent 8%),
+                  linear-gradient(180deg,#f3e5f5,#f3e5f5 45%,#f3e5f5 100%);
+      color:#4a2c61;
+      padding-bottom:60px;
+    }
+    .top-nav{
+      background:rgba(255,255,255,0.96);
+      box-shadow:0 6px 18px rgba(74,39,107,0.06);
+      position:sticky;
+      top:0;
+      z-index:99
+    }
+    .nav-wrap{max-width:1000px;margin:0 auto;padding:10px 20px;display:flex;justify-content:center}
+    .nav{list-style:none;display:flex;gap:8px}
+    .nav a{
+      display:inline-block;
+      padding:10px 16px;
+      border-radius:10px;
+      text-decoration:none;
+      color:#6a1b9a;
+      font-weight:600;
+      transition:all .18s
+    }
+    .nav a.active{
+      color:#ab47bc;
+      border-bottom:3px solid #ab47bc
+    }
+    .nav a:hover{background:rgba(186,104,200,0.15)}
+
+    .wrap{max-width:1000px;margin:34px auto;padding:18px}
+    .card{
+      background:#ffffff;
+      border-radius:12px;
+      padding:26px;
+      box-shadow:0 18px 40px rgba(74,39,107,0.06);
+      margin-bottom:20px
+    }
+    .profile{display:flex;gap:26px;align-items:flex-start}
+    .avatar{
+      width:160px;height:160px;
+      border-radius:12px;
+      object-fit:cover;
+      border:4px solid #ce93d8
+    }
+    .profile h2{color:#ab47bc;margin-bottom:6px}
+    .meta-list{margin-top:8px}
+    .meta-list div{margin-bottom:8px;color:#5e3c6f}
+    .desc{margin-top:10px;color:#4a2c61}
+
+    h3{color:#ab47bc;margin-bottom:12px}
+    .box{
+      background:#ffffff;
+      border-radius:10px;
+      padding:14px;
+      border-left:4px solid #ab47bc
+    }
+    ul{margin-top:8px;padding-left:18px}
+    li{margin-bottom:6px;color:#4a2c61}
+
+    @media (max-width:720px){
+      .profile{flex-direction:column;align-items:center;text-align:center}
+      .avatar{width:140px;height:140px}
+    }
+  </style>
+</head>
+<body>
+  <header class="top-nav">
+    <div class="nav-wrap">
+      <ul class="nav" role="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap" aria-labelledby="resume-title">
+    <article class="card" id="resume-card">
+      <section class="profile" aria-labelledby="name">
+        <img class="avatar" src="C:\Users\Mia Cabanza\Desktop\portfolio\c70d1124-b5a5-4473-9695-443cd3e0ef3c.jpg" alt="Rezil Cabanza">
+        <div>
+          <h2 id="name">Rezil A. Cabanza</h2>
+          <div class="meta-list">
+            <div><strong>Age:</strong> 24</div>
+            <div><strong>Address:</strong> Matnog, Sorsogon, Philippines</div>
+            <div><strong>Course:</strong> Bachelor of Science in Information Systems</div>
+          </div>
+          <p class="desc"><strong>Description:</strong>  A hard working student of Bachelor of Science in  Information Systems student who enjoys learning new things, especially in web development and creative projects. I like reading, solving problems, and working with others to reach goals. My motivation comes from improving myself and making a positive impact in the future.</p>
+      </section>
+    </article>
+
+    <section class="card" aria-labelledby="education">
+      <h3 id="education">Education</h3>
+      <div class="box">
+       <div class="box">
+      <strong>Sorsogon State University</strong><br>
+      <small>Bulan, Sorsogon</small>
+      <ul>
+      <li><strong>Bachelor of Science in Information Systems</strong> — 2022 to Present</li>
+       </ul>
+       </div>
+      <div class="box">
+       <strong>Quezon National High School</strong><br>
+        <small>Quezon, Bulan, Sorsogon</small>
+      <ul>
+         <li><strong>Senior High School (TVL Track)</strong> — Graduate 2019–2020</li>
+         <li><strong>Junior High School</strong> — Graduate 2017–2018</li>
+        </ul>
+       </div>
+      <div class="box">
+       <strong>Coron-Coron Elementary School</strong><br>
+       <small>Coron-Coron, Matnog, Sorsogon</small>
+       <ul>
+       <li><strong>Elementary Graduate</strong> — 2014–2015</li>
+       </ul>
+       </div>
+    </section>
+    
+    <section class="card" aria-labelledby="skills">
+      <h3 id="skills">Skills</h3>
+      <div class="box">
+        <ul>
+          <li><strong>System Analysis & Design:</strong> Capstone experience as System Analyst</li>
+          <li><strong>Basic Web Development:</strong> HTML & CSS — built personal portfolio</li>
+          <li><strong>Database Management:</strong> ERD design and basic SQL concepts</li>
+          <li><strong>Documentation & Research:</strong> Technical reports and project documentation</li>
+          <li><strong>Communication & Teamwork:</strong> Collaborating with project members</li>
+        </ul>
+      </div>
+    </section>
+
+     <section class="card" aria-labelledby="experience">
+      <h3 id="experience">Experience</h3>
+      <div class="box">
+        <strong>Outreach Program – Civic Welfare Training Service (CWTS)</strong><br>
+        <small>Role: Volunteer</small>
+        <ul>
+          <li>Participated in community outreach initiatives under CWTS</li>
+          <li>Engaged in group activities promoting civic responsibility</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <strong>Tutoring Program</strong><br>
+        <small>Role: Student Tutor</small>
+        <ul>
+          <li>Conducted vacation tutoring sessions for elementary students in the community</li>
+          <li>Provided guidance and support to improve learning performance</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <strong>TESDA – Organic Agriculture Production (NC II)</strong><br>
+        <small>Role: Trainee</small>
+        <ul>
+          <li>Produced organic fertilizer as part of TESDA certification training</li>
+          <li>Developed knowledge and hands-on skills in sustainable agriculture practices</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
